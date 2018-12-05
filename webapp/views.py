@@ -14,3 +14,6 @@ class TapesPageView(TemplateView):
 class PhotosPageView(TemplateView):
 	template_name = 'mhp-photos.html'
 
+class VideosPageView(TemplateView):
+	template_name = 'mhp-videos.html'
+
