@@ -20,5 +20,8 @@ class VideosPageView(TemplateView):
 class SinglesPageView(TemplateView):
 	template_name = 'mhp-singles.html'
 
+class ContactPageView(TemplateView):
+	template_name = 'mhp-contact.html'
+
 
 
